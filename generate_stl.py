@@ -11,7 +11,7 @@ Requirements:
 To run this script:
     1. Ensure the necessary requirements are met.
     2. Update the names list with the names you want to convert.
-    3. Run the script using `python yourfilename.py`.
+    3. Run the script using `python generate_stl.py name1 name2 name3`.
 """
 
 import os
