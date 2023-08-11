@@ -122,4 +122,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     for name in tqdm(args.names, desc="Generating STL files"):
-        generate_stl(name)
+        generate_stl(name.lower())
