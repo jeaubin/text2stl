@@ -41,8 +41,8 @@ def generate_stl(name):
     # Open the text to STL website
     driver.get("https://text2stl.mestres.fr/en-us/generator")
 
-    # Create a wait instance with a 2-second timeout
-    wait = WebDriverWait(driver, 2)
+    # Create a wait instance with a 5-second timeout
+    wait = WebDriverWait(driver, 5)
 
     # Find and fill the text box
     text_box = wait.until(EC.element_to_be_clickable((By.ID, "text-content")))
